@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  
+<body>
+    <h1 id="title">Pet Survey</h1>
+    <p id="description">This website will survey you on your pets</p>
+  
+    <table>
+        <form id="survey-form">
+          
+<!--           ROW 1  -->
+            <tr>
+                <td>
+                    <label id="name-label" for="name">
+                        Name:
+                    </label>
+                </td>
+                <td><input required type="text" id="name" />
+                </td>
+            </tr>
+          
+          
+          
+          
+<!--           ROW two  -->
+            <tr>
+                <td><label id="email-label" for="email">
+                        Email:
+                    </label>
+                </td>
+                <td><input type="email" id="email" />
+                </td>
+            </tr>
+          
+<!--           ROW THREE -->
+            <tr>
+                <td><label id="number-label" for="number">
+                        Number of Pets:
+                    </label>
+                </td>
+                <td><input min=0 max=100 type="number" id="number" />
+                </td>
+            </tr>
+          
+          
+<!--           ROW FOUR -->
+            <tr>
+                <td><label for="dropdown">
+                        Cats or Dogs?"
+                    </label>
+                </td>
+              <td><select id="dropdown">
+                <option value="Dog">Dog</option>
+              <option value="Cat">Cat</option></select>
+                </td>
+            </tr>
+          
+          
+<!--           ROW FIVE -->
+          <tr>
+                <td><label for="good-survey">
+                        Is this a good survey?:
+                    </label>
+                </td>
+            <td>
+                <input type="radio" name="yes" id="good-survey" />Yes
+                  <input type="radio" name="no" id="good-survey"/>No
+                </td>
+          </tr>
+          
+          
+<!--        CHECKBOX INPUTS -->
+          <tr>
+            <td>
+              <label for="checkbox">What pets do you have?:</label>
+            </td>
+            <td>
+              <input type="checkbox" value="dog-check">Dog</input>
+          <input type="checkbox" value="cat-check">Cat</input>
+            </td>
+          </tr>
+          
+<!--           text area -->
+          
+          <tr>
+                <td><label for="text-area">
+                        Any additional Comments?:
+                    </label>
+                </td>
+            <td>
+                <input type="text"  id="textarea" />
+                 
+                </td>
+          </tr>
+          
+          
+          
+          
+          
+<!-- SUBMIT BUTTON -->
+          <tr align="center">
+            <td>
+            <input type="submit"></input>
+            </td>
+          </tr>
+      </form>
+    </table>
+
+</body>
+  
+</html>

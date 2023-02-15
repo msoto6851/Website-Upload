@@ -1,0 +1,21 @@
+table, h1, p {
+  display: flex;
+  justify-content:center; 
+}
+
+input{
+  border: 2px solid black;
+  display:flex;
+  justify-content:space-between;
+}
+
+table{
+  background-color:grey;
+  border:5px solid black;
+  border-radius:25px;
+  
+}
+
+
+
+
